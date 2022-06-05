@@ -1,7 +1,6 @@
 #Guzel Zakirova
 ***
-#Guzel Zakirova
-***
+
 ##Contact Information:
 Location: Kazan, Russia
 E-mail: viproo@bk.ru
