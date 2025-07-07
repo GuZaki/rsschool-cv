@@ -1,3 +1,3 @@
-#rsschool-cv
+# __rsschool-cv__
 
 https://GuZaki.github.io/rsschool-cv/
