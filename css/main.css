@@ -1,0 +1,219 @@
+.main {
+    display: flex;
+    gap: 35px;
+}
+
+.title {
+    font-size: 42px;
+}
+
+.main__left-side {
+    max-width: 40%;
+    flex-shrink: 0;
+    padding: 20px 35px 20px 15px;
+    background-color: var(--text-color-main);
+    color: var(--bg-color-main);
+    position: relative;
+    overflow: hidden; 
+}
+
+.main__left-side::before {
+    content: url("../img/lingkaran-yellow.svg");
+    position: absolute;
+    left: -9%;
+    top: -4%;
+}
+
+.main__right-side {
+    position: relative;
+}
+
+.main__right-side .subtitle {
+    position: relative;
+    width: 106%;
+    left: -6%;
+    background-color: var(--bg-color-second);
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.main__right-side .subtitle::after {
+    content: url("../img/lingkaran.svg");
+    position: absolute;
+    top: -45%;
+    right: -5%;
+}
+
+.promo__inner h2 {
+    font-size: 26px;
+    font-weight: 100;
+    font-family: var(--font-family-second);
+}
+
+.promo__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 150px;
+}
+
+.promo__img,
+.title {
+    z-index: 100;
+}
+.contacts .subtitle {
+    margin-bottom: 20px;
+}
+
+.contacts__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contacts__list li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts__list {
+    position: relative;
+}
+
+.contacts__list span:not(.not) {
+    padding-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.contacts__list li::before {
+    position: absolute;
+    content: "";
+    background-size: cover;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.contacts__list li:first-child::before {
+    background-image: url("../img/location.svg");
+}
+
+.contacts__list li:nth-child(2)::before {
+    background-image: url("../img/email.svg");
+}
+
+.contacts__list li:last-child::before {
+    background-image: url("../img/telegram.svg");
+}
+
+.contacts__list span:not(.not){
+    border-bottom: 1px solid var(--bg-color-second);
+}
+
+.contacts__link:hover {
+    color: var(--bg-color-second);
+}
+
+.not,
+.contacts__link {
+    align-self: flex-end;
+}
+
+.projects__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skills__professional,
+.skills__languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.headline,
+.skills__professional,
+.education__text {
+    margin-bottom: 20px;
+}
+
+.skills__professional li,
+.skills__languages li {
+    display: flex;
+    background-color: var(--text-color-second);
+    border-radius: 5%;
+    gap: 20px;
+    padding: 10px;
+}
+
+.skills__professional li:hover,
+.skills__languages li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px var(--bsh-color);
+    transition: all 0.2s;
+}
+
+.skills__languages li,
+.education__list li,
+.education__text {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.skills__languages li::before,
+.education__text::before,
+.education__list li::before {
+    width: 23px;
+}
+
+.skills__languages li::before {
+    content: "";
+    height: 23px;
+    background-size: cover;
+    background-image: url("../img/language.svg");
+}
+
+.education__text::before {
+    content: url("../img/university.svg");
+}
+
+.education__list li::before {
+    content: url("../img/courses.svg");
+}
+
+.education__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projects__link > img {
+    width: 100%;
+    display: block;
+}
+
+.projects__item:hover {
+    cursor: pointer;
+    transform: scale(1.015);
+    box-shadow: -5px 5px 5px var(--bsh-color);
+    border-radius: 15px;
+    transition: all 0.2s;
+
+}
+
+.projects__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--text-color-second);
+    border-radius: 0 0 15px 15px ;
+}

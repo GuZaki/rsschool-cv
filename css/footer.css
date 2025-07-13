@@ -1,0 +1,31 @@
+
+.footer__menu {
+    background-color: var(--text-color-main);
+    color: var(--text-color-second);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__link svg {
+    height: 50px;
+    width: 50px;
+}
+
+.footer__link svg path:hover,
+.footer__link:hover {
+    stroke: var(--bg-color-second);
+    color: var(--bg-color-second);
+}
+
+.footer__link {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+
+.footer__menu-item:last-child .footer__link:hover {
+    box-shadow: 1px 1px 2px 2px var(--bg-color-second);
+    transition: all 0.7s;
+}
