@@ -1,0 +1,140 @@
+body {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    min-width: 320px;
+
+    background-color: var(--bg-color-main);
+    color: var(--text-color-main);
+    
+    margin: 0;
+    padding: 0;
+
+    scroll-behavior: smooth;
+}
+ 
+  /* @media (max-width: 1440px) {
+    html {
+      --container: 1000px;
+    }
+  }
+  @media (max-width: 768px) {
+    html {
+      --container: 688px;
+      --padding-container: 40px;
+    }
+  }
+  @media (max-width: 425px) {
+    html {
+      --container: 100%;
+      --padding-container: 20px;
+    }
+  } */
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+    
+  /* img,  */
+  svg {
+    display: block;
+  }
+    
+  button {
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    /* transition: all 0.5s ease 0s; */
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    /* transition: all 0.5s ease 0s; */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p,
+  figure {
+    margin: 0;
+  }
+  
+  iframe {
+    border: none;
+  }
+  
+  fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  section {
+    padding: 20px 0;
+  }
+
+  /* @media (max-width: 1010px) {
+    section {
+      padding: 50px 0;
+    }
+  }
+  @media (max-width: 760px) {
+    section {
+      padding: 40px 0;
+    }
+  } */
+  
+  .container {
+    max-width: calc(var(--container) + var(--padding-container) * 2);
+    padding: 0 var(--padding-container);
+    margin: 0 auto;
+  }
+
+  /* .title{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: var(--color-dark-l);
+  }
+
+  .subtitle{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 115%;
+    letter-spacing: 0.06em; 
+    /* text-align: center; 
+    color: var(--color-dark-l);
+  }*/
+/* 
+  .link-btn {
+    border-radius: 100px;
+    padding: 15px 45px;
+    background: var(--color-primary);
+    text-align: center;
+  }
+
+  .link-btn:hover {
+    background: var(--color-primary-light);
+    transition: all 0.5s;
+  } */
+
+ 

@@ -1,0 +1,13 @@
+:root {
+   --container: 1200px;
+   --padding-container: 40px;
+
+   --font-family: 'Poppins', Arial, sans-serif;
+   --font-family-second: 'Fasthand', serif;
+   
+   --bg-color-main: #f7f7fc;
+   --bg-color-second: #ffc905;
+   --text-color-main: #233a5f;
+   --text-color-second: #ffffff;
+   --bsh-color: #808080;
+}
